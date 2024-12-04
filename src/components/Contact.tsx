@@ -54,7 +54,7 @@ const Contact = () => {
     >
       <FadeIn>
         <div className="flex justify-center items-center text-center">
-          <Title title="CONTACT" des="Contact With Me" />
+          <Title title="CONTACT" des="Contact Us" />
         </div>
         <div className="w-full">
           <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
@@ -82,8 +82,9 @@ const Contact = () => {
                       className={`${
                         errMsg === "Username is required!" &&
                         "outline-designColor"
-                      } contactInput`}
-                      type="text"
+                      } contactInput text-gray-400`}
+                      type="text"  
+                      
                     />
                   </div>
                   <div className="w-full lgl:w-1/2 flex flex-col gap-4">
@@ -96,7 +97,7 @@ const Contact = () => {
                       className={`${
                         errMsg === "Phone number is required!" &&
                         "outline-designColor"
-                      } contactInput`}
+                      } contactInput text-gray-400`}
                       type="text"
                     />
                   </div>
@@ -111,8 +112,8 @@ const Contact = () => {
                     className={`${
                       errMsg === "Please give your Email!" &&
                       "outline-designColor"
-                    } contactInput`}
-                    type="email"
+                    } contactInput text-gray-400`}
+                    type="email"  
                   />
                 </div>
                 <div className="flex flex-col gap-4">
@@ -125,7 +126,7 @@ const Contact = () => {
                     className={`${
                       errMsg === "Plese give your Subject!" &&
                       "outline-designColor"
-                    } contactInput`}
+                    } contactInput text-gray-400`}
                     type="text"
                   />
                 </div>
@@ -138,7 +139,7 @@ const Contact = () => {
                     value={message}
                     className={`${
                       errMsg === "Message is required!" && "outline-designColor"
-                    } contactTextArea`}
+                    } contactTextArea text-gray-400`}
                     cols={30}
                     rows={8}
                   ></textarea>

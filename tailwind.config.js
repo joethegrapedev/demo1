@@ -18,14 +18,12 @@ export default {
         xl: "1280px",
       },
       colors: {
-        bodyColor: "#0B1120",
-        lightText: "#c4cfde",
-        boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
-        designColor: "#ff014f",
+        bodyColor: "#ffffff", // white
+        lightText: "#0000ff", // blue
+        boxBg: "#000000", // black
+        designColor: "#000000", // green
       },
-      boxShadow: {
-        shadowOne: "10px 10px 19px #030712, -10px -10px 19px #0f172a",
-      },
+      
     },
   },
   plugins: [],

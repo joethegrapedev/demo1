@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaYoutube, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa";
 import { logo } from "../assets";
 import { navLinksdata } from "../constants";
 
@@ -45,9 +45,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  Bringing smiles one surgery at a time
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -75,27 +73,47 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+                  <a href="https://youtu.be/_dih2JOb2C8" target="_blank">
                     <span className="bannerIcon">
                       <FaYoutube />
                     </span>
-                  </a>
-                  <a
+                  </a> 
+                  
+                  
+{/* CHECK THIS AND REMOVE THIS SECTION, ADD INSTA LINK INSTEAD */}
+                  
+            <a href="https://www.instagram.com/mountelizabethhospitals/p/C0d2R7lInFg/?next=%2Frubykantor%2F&hl=ja&img_index=1" target="_blank">
+              <span className="bannerIcon">
+                <FaInstagram />
+              </span>
+            </a>
+                  
+                  {/* <a
                     href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
                     target="_blank"
                   >
+                   
                     <span className="bannerIcon">
                       <FaLinkedinIn />
                     </span>
-                  </a>
-                  <a
+                  </a> */}
+{/* ADD INSTA LINK ABOVE */}
+
+
+<a href="https://www.facebook.com/watch/?v=1032449527847176" target="_blank">
+              <span className="bannerIcon">
+                <FaFacebookF />
+              </span>
+            </a>
+            
+                  {/* <a
                     href="https://www.facebook.com/Noorlalu143/"
                     target="_blank"
                   >
                     <span className="bannerIcon">
                       <FaFacebookF />
                     </span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <span

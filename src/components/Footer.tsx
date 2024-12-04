@@ -1,4 +1,4 @@
-import { FaFacebookF, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 import { logo } from "../assets";
 import { FadeIn } from "./FadeIn";
 
@@ -8,24 +8,31 @@ const Footer = () => {
       <div className="w-full h-full flex flex-col gap-8">
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
-          <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+        <a href="https://youtu.be/_dih2JOb2C8" target="_blank">
             <span className="bannerIcon">
               <FaYoutube />
             </span>
           </a>
-          <a
+          
+          <a href="https://www.instagram.com/mountelizabethhospitals/p/C0d2R7lInFg/?next=%2Frubykantor%2F&hl=ja&img_index=1" target="_blank">
+              <span className="bannerIcon">
+                <FaInstagram />
+              </span>
+            </a>
+          
+          {/* <a
             href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
             target="_blank"
           >
             <span className="bannerIcon">
               <FaLinkedinIn />
             </span>
-          </a>
-          <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-          </a>
+          </a> */}
+          <a href="https://www.facebook.com/watch/?v=1032449527847176" target="_blank">
+              <span className="bannerIcon">
+                <FaFacebookF />
+              </span>
+            </a>
         </div>
       </div>
       <div className="w-full h-full">
