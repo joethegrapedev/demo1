@@ -5,6 +5,7 @@ import Skills from './Skills';
 import Experience from './Experience';
 import Achievement from './Achievement';
 import { Tab } from '@headlessui/react';
+import { FadeIn } from './FadeIn';
 
 const teamMembers = {
   leaders: [
@@ -44,12 +45,15 @@ const teamMembers = {
 
 const Resume = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
-  // <section
-  //     id="features"
-  //     className="w-full py-20 border-b-[1px] border-b-gray-700"
-  //   ></section>
+  //  <section
+  //      id="features"
+  //      className="w-full py-20 border-b-[1px] border-b-gray-700"
+  //  ></section>
   return (
-    <section>
+    <section
+      id="resume"
+      className="w-full py-20 border-b-[1px] border-b-gray-700">
+        <FadeIn>
       <div className="container mx-auto py-12">
         <h1 className="text-4xl font-bold text-center mb-12">Our Story</h1>
         <div className="flex flex-col md:flex-row gap-8 mb-16">
@@ -109,6 +113,7 @@ const Resume = () => {
           </div>
         ))}
       </div>
+      </FadeIn>
     </section>
   );
 };

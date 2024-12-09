@@ -1,6 +1,6 @@
 import Title from "./Title";
-import ProjectsCard from "./ProjectsCard";
-import { projectOne, projectThree, projectTwo } from "../assets";
+// import ProjectsCard from "./ProjectsCard";
+// import { projectOne, projectThree, projectTwo } from "../assets";
 import { FadeIn } from "./FadeIn";
 
        {/* INFORMATION ABOUT THE DIFFERENT MISSIONS BELOW */}
