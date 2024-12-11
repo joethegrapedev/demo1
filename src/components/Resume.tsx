@@ -43,6 +43,9 @@ const teamMembers = {
   // ],
 };
 
+
+
+
 const Resume = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
   //  <section
@@ -51,7 +54,7 @@ const Resume = () => {
   //  ></section>
   return (
     <section
-      id="resume"
+      id="Resume"
       className="w-full py-20 border-b-[1px] border-b-gray-700">
         <FadeIn>
       <div className="container mx-auto py-12">
@@ -66,7 +69,7 @@ const Resume = () => {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/_dih2JOb2C8" //https://youtu.be/_dih2JOb2C8
+              src="https://www.youtube.com/embed/_dih2JOb2C8" // Direct URL to the video
               title="MyLaoSmile Story"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -118,4 +121,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Resume;  
